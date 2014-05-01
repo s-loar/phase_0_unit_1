@@ -1,1 +1,45 @@
-/* include your css here */
+body{
+    background-color: #f6f6ef;
+    font-family: Verdana, helvetica, sans-serif;
+}
+
+#container {
+    padding: 20px;
+}
+
+#sidebar {
+    padding: 0;
+    position: relative;
+    float: right;
+    overflow-y: auto;
+    border: 1px solid silver;
+}
+
+#sidebar h1 {
+    font-size: 14px;
+    font-family: verdanna;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+ul{
+    padding: 0;
+    margin: 8px;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-bottom: 3px;
+}
+
+#header h1{
+    color: blue;
+    font: verdanna;
+    padding-left: 10px;
+}
+
+#reflection {
+    font-family: 'Love Ya Like A Sister', cursive;
+}

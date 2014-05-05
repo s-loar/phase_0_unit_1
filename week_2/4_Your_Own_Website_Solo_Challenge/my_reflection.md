@@ -4,6 +4,8 @@ My Website url: <!-- Website URL here (remove comment) -->
 
 Discuss the following:
 * What did you learn about design and user experience? 
+Web design and designing for user experience is important to having a successful website. A lot of time can be spent styling a site to create a visually appealing and useful experience.
+
 * Do you like design and user experience? Was it fun working on your site, the plan, and/or the wireframe? (If you hated it, that's OK too)
 I like doing the design improvements to a page. It is fun playing with the page in Chrome dev tools and seeing the changes automaticaly. The responsive changes can be a pain, but each time I do one, it gets easier.
 

@@ -40,27 +40,44 @@ var terah = {
 
 11. Add a children property to adam and assign it the value of terah children.
 
+  Pseudocode:
+    DECLARE adam as an object.
+    SET adam's name to "Adam"
+    SET terah's spouse to adam
+    SET terah's weight to 125
+    DELETE terah's eye color property
+    SET Adam's spouse to terah
+    DECLARE terah's children as an object
+    SET one of terah's children as carson that is an object who's name is "Carson".
+    SET one of terah's children as carter that is an object who's name is "Carter".
+    SET one of terah's children as colton that is an object who's name is "Colton".
+    SET adam's children to terah's children
 
 */
 
 // __________________________________________
 // Write your code below.
-
-
-
-
-
-
+var adam = {};
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = {};
+terah.children.carson = { name: "Carson" };
+terah.children.carter = { name: "Carter" };
+terah.children.colton = { name: "Colton" };
+adam.children = terah.children;
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+// My strategy was to pseudo code the solution first, then run the script in node and add code to pass the tests.
+// I had questions on how to remove a property from an object, and found the answer by Googling it to a 
+// Stack Exchange question where I found a solution. For adding children to terah, I just guessed at the solution 
+// and adjusted my code based on the errors it generated. THis was fairly enjoyable to me, as I am enjoying
+// running the tests and adding the code to make it pass. The tedious part was the pseudocode where I would have 
+// preferred to use sentences like those that were already in the file.
 
 
 // __________________________________________

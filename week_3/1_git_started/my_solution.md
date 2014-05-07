@@ -44,11 +44,14 @@ Gives the state of changed files and new files in your local repository.
 ## Release 4: Git Workflow
 
 - Push files to a remote repository
-	git push 
+	git add newfilename
+	git commit -a -m 'comment here'
+	git push origin master
 - Fetch changes
-	git pull 
+	git fetch URLofrepository
+	git pull URLofrepository
 - Commit locally
-	git commit -m 'my message'
+	git commit -a -m 'comment here'
 
 ## Release 5: Reflection on what I learned
 Git has always been scary for me. There is a lot of commands and you can mess things up if you do not do it correctly. That was shy I like the app. It took the scary out of the process. But this lesson has shown that there are a lot of things that we will need to do that cannot be done through the app. So I am going to use the comand line to push this file to the remote repository and hopefully start using it from now on. I think that branching will be scary also, as far as knowing you are in the branch making changes and not in the main code. I was surprised at the Git documentation as being easy to read and understand from my newbie perspective.

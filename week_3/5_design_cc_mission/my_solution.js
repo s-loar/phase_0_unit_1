@@ -1,4 +1,4 @@
-// I worked [by myself, with:] on this challenge
+// I worked by myself on this challenge
 
 // Your mission description:
 // Thorin is back in the dungeon only this time he is out for treasure.

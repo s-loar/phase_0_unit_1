@@ -9,7 +9,7 @@ Tells git to add a new file to the local repository on the next commit command.
 Tells github, the remote, to split a copy of the code off from the main code so changes can be made to that instead of the main code branch
 
 #### checkout
-This lets you switch between branches in the remote.
+This lets you switch between branches in the remote. 
 
 #### clone
 This pulls a local copy of a repository. This would be done on a new local repository pulling a remote with files in it.

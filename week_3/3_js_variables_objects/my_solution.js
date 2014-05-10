@@ -1,4 +1,4 @@
-// I paired [by myself, with:] on this challenge.
+// I paired  with: Darrell Jones on this challenge.
 
 
 

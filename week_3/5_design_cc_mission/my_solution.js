@@ -1,4 +1,4 @@
-// I worked by myself on this challenge
+// I worked with Maddison Brusman on this challenge
 
 // Your mission description:
 // Thorin is back in the dungeon only this time he is out for treasure.
@@ -8,6 +8,10 @@
 // Pseudocode
 // Thorin moves up 
 // Thorin moves up
+// Thorin moves right
+// Thorin moves down
+// Thorin moves right
+// Thorin attacks nearby enemy
 // Thorin moves up
 // Thorin moves left
 // Thorin attacks nearby enemy
@@ -34,7 +38,7 @@ function Hero( name, x_position, y_position ) {
 		this.showPosition();
 	};
 
-	this.moveUDown = function() {
+	this.moveDown = function() {
 		this.y = this.y - 1;
 		console.log( this.name + " moves down 1 space");
 		this.showPosition();
@@ -75,7 +79,10 @@ function Hero( name, x_position, y_position ) {
 
 	this.doMission = function() {
 		this.moveUp();
-		this.moveUp();
+		this.moveRight();
+		this.moveDown();
+		this.moveRight();
+		this.attackNearbyEnemy("monster");
 		this.moveUp();
 		this.moveLeft();
 		this.attackNearbyEnemy( "ogre" );
@@ -91,6 +98,7 @@ function Hero( name, x_position, y_position ) {
 
 var thorin = new Hero( "Thorin", 0, 0);
 thorin.doMission();
+
 
 
 
